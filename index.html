@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="entire-body">
+        <head>
+            <img src="./images/Group 1.png" alt="logo">
+        </head>
+    
+        <section class="intro">
+            Welcome to my daily list of tasks to be accomplished
+            for specific set time. Sponsored by Wejapa internship.
+        </section>
+        <div class="card-content">
+            <span class="card-title">Task</span>
+            <div class="row">
+              <form id="task-form">
+                <div class="input-field">
+                  <input type="text" placeholder="New task" id="task">
+                  <input type="datetime" placeholder="Time" id="time">
+                </div>
+                <button type="submit" class="add-task-action">ADD TASK</button>
+              </form>
+            </div>
+        </div>
+    
+        <section class="card-action">
+            <h5 id="task-title">Incomplete Tasks List</h5>
+            <ul class="collection">
+                
+            </ul>
+        </section>
+
+            <hr>
+        <section class="card-action">
+            <h5 id="task-title">Completed Tasks List</h5>
+            <ul class="collection-x">
+               
+            </ul>
+        </section>
+    </div>
+</body>
+<script src="./application.js"></script>
+</html>
